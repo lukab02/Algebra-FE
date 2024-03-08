@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Obrasci</title>
+</head>
+<body>
+<form  name="obrazac1" action="" method="post" autocomplete="off" target="_blank">
+<p>
+  <label for="ime">Ime i prezime</label>
+  <br>
+  <input id="ime" name="imeprezime" type="text" placeholder="Vase ime i prezime">
+</p>
+<div>
+  <label for="mail">E-mail adresa</label>
+  <br>
+  <input type="email" id="mail" type="email" placeholder="john.doe@example.com">
+</div>
+<p>
+  <label for="">Telefon</label>
+  <br>
+  <input type="tel" name="tel" id="tel" placeholder="099/1234-123" pattern="[0-9]{3}/[0-9]/{4}-[0-9]{3}">
+</p>
+<p>
+  <label for="password">Vaša zaporka</label>
+  <br>
+  <input type="password" name="password" type="password" autocomplete="off">
+</p>
+<p>
+  <label for="boja">Boja</label>
+  <br>
+  <input type="color" name="boja" id="boja">
+</p>
+<p>
+  <label for="obavijesti">Želim primati obavijesti</label>
+  <br>
+  <input id="obavijesti" type="checkbox" name="newsletter" checked>
+</p>
+<p>Ocijenite usluge naše tvrtke
+  <br>
+  <label for="opcija1">Opcija 1</label>
+  <input type="radio" name="ocjena" id="opcija1">
+  <label for="opcija2">Opcija 2</label>
+  <input type="radio" name="ocjena" id="opcija2">
+  <label for="opcija3">Opcija 3</label>
+  <input type="radio" name="ocjena" id="opcija3">
+  <label for="opcija4">Opcija 4</label>
+  <input type="radio" name="ocjena" id="opcija4">
+  <label for="opcija5">Opcija 5</label>
+  <input type="radio" name="ocjena" id="opcija5">
+</p>
+<p>
+  <label for="dokument">Priložite dookument</label>
+  <br>
+  <input type="file" name="dookument" id="dokument">
+</p>
+<p>
+  <label for="datum">Izaberite datum</label>
+  <br>
+  <input type="date" name="datum" id="datum">
+</p>
+<p>
+  <label for="comment">Vaš komentar</label>
+  <br>
+  <textarea name="comment" id="comment" cols="50" rows="10" style="resize: none;" ></textarea>
+</p>
+<p>
+  <label for="grad">Odaberite seminar</label>
+  <br>
+  <select name="grad" id="grad">
+    <option value="london">London</option>
+    <option value="pariz">Pariz</option>
+    <option value="rim">Rim</option>
+  </select>
+</p>
+<p>
+  <label for="grad2">Odaberite ili upišite grad</label>
+  <br>
+  <input type="text" name="grad2" id="grad2" list="gradovi">
+  <datalist id="gradovi">
+    <option value="London">
+    <option value="Pariz">
+    <option value="Rim">
+  </datalist>
+</p>
+<p>
+  <input name="reset_btn" type="reset" value="Poništi obrazac" required>
+  <input name="submit_btn" type="submit" value="Pošalji obrazac">
+</p>
+</form>
+</body>
+</html>
