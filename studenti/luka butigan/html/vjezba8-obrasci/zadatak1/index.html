@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Obrasci</title>
+</head>
+<body>
+  <form name="prijava" autocomplete="off" method="post">
+    <div>
+      <p>
+        <label for="ime">Ime i Prezime</label>
+        <br>
+        <input type="text" id="ime" name="ime" placeholder="Ime i Prezime" required>
+      </p>
+    </div>
+    <div>
+      <p>
+        <label for="email">E-mail adresa</label>
+        <br>
+        <input type="text" id="email" name="email" placeholder="jhon.doe@gmail.com" required>
+      </p>
+    </div>
+    <div>
+      <p>
+        <label for="tel">Broj telefona</label>
+        <br>
+        <input type="tel" name="tel" id="tel" placeholder="099/1234-123" pattern="[0-9]{3}/[0-9]/{4}-[0-9]{3}" required>
+      </p>
+    </div>
+    <div>
+      <p>
+        <label for="datum">Izaberite datum</label>
+        <br>
+        <input type="date" name="datum" id="datum">
+      </p>
+    </div>
+    <div>
+      <p>Koje jezike govorite?
+        <br>
+        <label for="engleski">Engleski</label>
+        <input id="engleski" name="jezik" type="checkbox" value="engleski">
+        <label for="njemacki">Njemački</label>
+        <input id="njemacki" name="jezik" type="checkbox" value="njemacki">
+        <label for="talijanski">Talijanski</label>
+        <input id="talijanski" name="jezik" type="checkbox" value="talijanski">
+        <label for="spanjolski">Španjolski</label>
+        <input id="spanjolski" name="jezik" type="checkbox" value="spanjolski">
+        <label for="francuski">Francuski</label>
+        <input id="francuski" name="jezik" type="checkbox" value="francuski">
+      </p>
+    </div>
+    <div>
+      <p>Da li ste do sada koristili usluge naše tvrtke?
+        <br>
+        <label for="usluge-da">Da</label>
+        <input id="usluge-da" type="radio" name="usluge" value="yes">
+        <label for="usluge-ne">Ne</label>
+        <input id="usluge-ne" type="radio" name="usluge" value="no">
+      </p>
+    </div>
+    <div>
+      <p>
+        <label for="dokument">Priložite dokument</label>
+        <br>
+        <input type="file" name="dokument" id="dokument">
+      </p>
+    </div>
+    <div>
+      <p>
+        <input name="reset_btn" type="reset" value="Poništi">
+        <input name="submit_btn" type="submit" value="Prijavi se">
+      </p>
+  </div>
+  </form>
+</body>
+</html>
