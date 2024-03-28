@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selektori HTML elemenata</title>
+  <style>
+    body {
+      color: #333;
+      font-size: 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    [title] {
+      text-decoration: underline solid red;
+    }
+    [title="Prvi odlomak"] {
+      font-weight: bold;
+      text-transform: uppercase;
+      color: darkorange;
+    }
+    [title~="odlomak"] {
+      text-transform: uppercase;
+    }
+    [title^="odlomak"] {
+      font-style: italic;
+    }
+    [title*="odlomak"] {
+      color: darkgreen;
+    }
+    [title$="odlomak"] {
+      color: darkorange;
+    }
+    [title|="odlomak"] {
+      font-family:'Courier New', Courier, monospace;
+    }
+  </style>
+</head>
+<body>
+  <h1 title="naslov-stranice">Lorem, ipsum dolor.</h1>
+  <h2>Lorem, ipsum.</h2>
+  <h3>Lorem ipsum dolor sit.</h3>
+  <a href="https://google.com">Google</a>
+  <p title="Prvi odlomak">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium nobis corporis, veritatis numquam tempore culpa ipsa odit earum eum vel temporibus dolorem laboriosam architecto repudiandae unde! Mollitia facere officiis ducimus totam iste repellat omnis, quae similique quasi tenetur tempore sint?</p>
+  <p title="odlomak-2 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates magnam adipisci aspernatur consequatur numquam sit perspiciatis officiis sed optio. Doloribus doloremque explicabo excepturi, recusandae voluptas provident porro eos esse repellendus dicta. Laboriosam est excepturi, quam error, quis explicabo inventore consequatur iusto similique nostrum delectus corporis? Pariatur ex eum dolore voluptatibus odit, necessitatibus libero alias in voluptates nostrum exercitationem. Tempora reprehenderit quod, quis, enim ex, eius distinctio quisquam esse omnis voluptas fuga sit. Pariatur alias, consequuntur voluptate recusandae ut sed consectetur facilis natus? Numquam dolorem, harum est tempore adipisci facilis ducimus blanditiis eos inventore, odit nihil velit unde cum itaque sapiente?</p>
+  <p title="odlomak-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quis consectetur praesentium? Voluptas reprehenderit sint, nostrum voluptatum dicta tempora vero sapiente tenetur sunt quaerat aliquam, aspernatur vel quibusdam aut temporibus. Cupiditate nostrum deleniti sunt rerum fugit! Enim, aut. Sit similique ab dignissimos maxime, placeat exercitationem commodi blanditiis maiores doloremque amet mollitia nobis soluta corrupti saepe quas ut animi tempore, ratione quam harum iure veritatis? Pariatur quibusdam aliquam deserunt molestias fugit.</p>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, beatae provident corporis possimus repellendus corrupti cupiditate totam eum ratione labore, temporibus voluptatem pariatur consectetur, assumenda fugit neque molestias perferendis rerum. Ut ducimus veniam laborum eaque, rem doloremque est labore inventore. Nesciunt dolorem voluptates quae esse dolorum praesentium distinctio cupiditate in.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong> Voluptas <span title="sit"> accusamus pariatur,</span> a atque, itaque eum,</strong> tenetur ullam labore dolorem dolore at minima eaque illum expedita culpa velit? Cupiditate saepe aut velit. Perferendis earum quibusdam, accusamus soluta quos cumque corporis laudantium consectetur hic architecto, accusantium, odio eius. Vitae totam neque mollitia! Possimus ad dolore nihil inventore sequi, eos maiores praesentium atque fuga libero ut assumenda. Sunt quod explicabo vel architecto cum facere id et iure iusto? Eius ut saepe debitis facere?</p>
+</body>
+</html>
