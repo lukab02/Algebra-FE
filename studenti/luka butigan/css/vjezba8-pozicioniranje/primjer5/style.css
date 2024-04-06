@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+div {
+  width: 200px;
+  height: 200px;
+}
+.box1 {
+  background: cadetblue;
+}
+.box2 {
+  background: orange;
+  position: sticky;
+  top: 100px;
+  left: 100px;
+}
