@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+  border: 1px dashed #666;
+  padding: 1em;
+}
+.wrapper div {
+  background: #eee;
+  border: 1px solid #666;
+  padding: 1em;
+  text-align: center;
+  width: 150px;
+  margin: 1em;
+}
+.flex-container {
+  /* display: -ms-flexbox;  */ /* Horizontalno */
+  display: flex; /* Vertikalno */
+  flex-wrap: wrap;
+  align-content: center;
+}
+.flex-item {
+  flex-grow: 1;
+}
+.flex-item:nth-child(3) {
+  align-self: flex-end; /* align-self: auto | flex-start | flex-end | center | baseline | stretch */
+}
