@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* box */
+div {
+  background-color: #f93;
+  border: 1px solid #333;
+  font-size: 2em;
+  line-height: 150px;
+  width: 400px;
+  height: 150px;
+  margin: 0 auto 2em;
+  text-align: center;
+}
+
+.first {
+  transition: background-color 1s ease-out, width 1.5s linear;
+}
+
+.first:hover {
+  width: 650px;
+  background-color: #8cc;
+}
+
+.second {
+  transition: transform 2s ease-in-out;
+}
+
+.second:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.third {
+  transition: transform 1s linear;
+}
+
+.third:hover {
+  transform: translate(400px, 0) rotate(90deg);
+}
+
+.forth {
+  transition: transform 2.5s ease-in 2s;
+}
+
+.forth:hover {
+  transform: translate(0, 200px);
+  height: 200px;
+  background-color: yellow;
+}
