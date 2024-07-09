@@ -1,0 +1,21 @@
+{
+  "name": "mypwa, Progressive Web Appliaction;",
+  "short_name": "mypwa",
+  "description": "Progressive Web Appliaction Simple Demo",
+  "icons": [
+    {
+      "src": "pictures/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "pictures/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "theme_color": "#B12A34",
+  "background_color": "#B12A34"
+}
