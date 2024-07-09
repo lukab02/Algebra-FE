@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Closure</title>
+  </head>
+  <body>
+    <script>
+      var vanjskaFunkcija = (function () {
+        var lokalnaVar = 10;
+        return {
+          get: function () {
+            return lokalnaVar;
+          },
+          set: function (novaVrijednost) {
+            lokalnaVar = novaVrijednost;
+          },
+        };
+      })();
+      console.log(vanjskaFunkcija.get);
+    </script>
+  </body>
+</html>
