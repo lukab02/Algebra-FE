@@ -1,4 +1,4 @@
-import { UseSelector, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 function MojaKomponenta() {
   const brojac = useSelector((skladiste) => skladiste.counter);
